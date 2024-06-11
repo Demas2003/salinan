@@ -1,6 +1,7 @@
 .myBG {
   height: 100vh;
-  background: url("../assets/image/bg/theater 2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.877), rgba(255, 255, 255, 0.329)),
+    url("../assets/image/bg/nusa.jpg");
   background-size: cover;
 }
 
@@ -21,7 +22,17 @@
 
 .trending {
   height: auto;
-  background: black;
+  background: rgb(8, 8, 8);
+  background-size: cover;
+}
+
+.sejarah {
+  height: auto;
+  background: linear-gradient(
+    to top,
+    rgba(204, 203, 203, 0.932),
+    rgba(0, 65, 206, 0.829)
+  );
   background-size: cover;
 }
 
@@ -29,9 +40,19 @@
 }
 .movieImage {
   height: auto;
-  background-color: black;
+  background-color: rgb(17, 14, 29);
   margin: 5px;
   padding: 5px;
+}
+
+.movieImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0));
 }
 
 .images {
@@ -40,6 +61,183 @@
 
 .kartun {
   height: auto;
-  background: black;
+  background: rgb(8, 8, 8);
   background-size: cover;
+}
+
+.movieImage .card-title-container {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(223, 223, 1, 0.336),
+    rgba(1, 173, 1, 0.397)
+  );
+
+  color: rgb(255, 255, 255);
+}
+
+.movieWrapper {
+  border-radius: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 25px;
+  justify-content: center;
+}
+
+.grid > .item > a > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 45% 45%;
+  }
+}
+
+#about {
+  background-color: #eaedef;
+  position: relative;
+  font-size: 1.2rem;
+}
+#about > .wrapper {
+  margin: auto;
+  width: 50%;
+}
+#about > .wrapper > h3 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  color: #333;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#about > .wrapper > p {
+  text-align: center;
+}
+
+#about > .wrapper > h4 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px;
+  color: #333;
+}
+.skills {
+  text-align: center;
+}
+.skills > svg {
+  display: inline-block;
+  color: #74797e;
+  width: 50px;
+  height: auto;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.skills > svg:hover {
+  color: #aa392d;
+}
+
+@media only screen and (max-width: 1000px) {
+  #about > .wrapper {
+    width: 80%;
+  }
+}
+
+#contact-person {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+#contact-person .wrapper {
+  text-align: center;
+}
+
+#contact-person h3 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+#contact-person p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+#contact-person {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+#contact-person .wrapper {
+  text-align: center;
+}
+
+#contact-person h3,
+#contact-person h4 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+#contact-person p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+#contact-person .social-icon {
+  margin: 0 10px;
+  color: #333;
+}
+
+#contact-person .social-icon:hover {
+  color: #007bff;
+}
+#sejarah .wrapper {
+  margin: auto;
+}
+
+#sejarah .wrapper h1 {
+  font-size: 2rem;
+  color: #222831;
+}
+
+#sejarah .wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#sejarah .wrapper .skill {
+  text-align: left;
+  font-size: 1rem;
+  color: #222831;
+  white-space: pre-line;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+#sejarah .wrapper ul {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+#sejarah .wrapper ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
 }

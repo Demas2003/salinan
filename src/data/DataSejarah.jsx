@@ -1,6 +1,7 @@
 import AgakLaenImagee from "../assets/image/bg/cetho.jpg";
 import AgakLaenImage from "../assets/image/trending/Candi-Cetho.jpg";
 import PertaruhanImage from "../assets/image/trending/Jalak-Lawu.jpg";
+import GrijoganSewu from "../assets/image/trending/GROJOGAN SEWU.jpg";
 
 export const detailList = [
   {
@@ -33,10 +34,10 @@ export const detailList = [
     </ul>
   `,
   },
-  {
-    id: 2,
-    title: "JALAK LAWU",
-    image: PertaruhanImage,
-    imagess: PertaruhanImage,
-  },
+  // {
+  //   id: 2,
+  //   title: "JALAK LAWU",
+  //   image: PertaruhanImage,
+  //   imagess: PertaruhanImage,
+  // }
 ];

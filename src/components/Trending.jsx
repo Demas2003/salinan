@@ -111,22 +111,6 @@ const Trending = () => {
             <a href="">
               <Card className="bg-dark movieImage">
                 <Image
-                  src={GerojoganSewu}
-                  alt="Agak Laen Movie"
-                  className="images"
-                />
-                <div className="card-title-container">
-                  <Card.Title className="text-center">GEROJOGAN SEWU</Card.Title>
-                </div>
-              </Card>
-            </a>
-            <br /> <br />
-          </Col>
-
-          <Col md={4} className="movieWrapper" data-aos="zoom-in">
-            <a href="">
-              <Card className="bg-dark movieImage">
-                <Image
                   src={Jumog}
                   alt="Agak Laen Movie"
                   className="images"
@@ -251,21 +235,7 @@ const Trending = () => {
             <br /> <br />
           </Col>
 
-          <Col md={4} className="movieWrapper" data-aos="zoom-in">
-            <a href="">
-              <Card className="bg-dark movieImage">
-                <Image
-                  src={MasjidAgung}
-                  alt="Agak Laen Movie"
-                  className="images"
-                />
-                <div className="card-title-container">
-                  <Card.Title className="text-center">MASJID MADANIYAH KARANGANYAR</Card.Title>
-                </div>
-              </Card>
-            </a>
-            <br /> <br />
-          </Col>
+
 
           
         </Row>

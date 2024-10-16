@@ -1,6 +1,8 @@
 import Card from "react-bootstrap/Card";
 import RumahAd from "../assets/image/trending/RUMAH ADSIRI.jpg";
-import { detailList } from "../data/DataSejarah";
+import { detailList as sejarahList } from "../data/DataSejarah";
+import { detailList as masjidList } from "../data/DataMasjid";
+import { detailList as gerojogansewuList } from "../data/DataGerojoganSewu";
 import Sukuh from "../assets/image/trending/SUKUH.jpg";
 import Lawu from "../assets/image/trending/LAWU.jpg";
 import Mongkrang from "../assets/image/trending/MONGKRANG.jpg";
@@ -29,7 +31,7 @@ const Trending = () => {
         </h1>
         <br />
         <Row>
-          {detailList.map((item) => (
+          {sejarahList.map((item) => (
             <Col
               md={4}
               className="movieWrapper"
@@ -38,6 +40,56 @@ const Trending = () => {
               key={item.id}
             >
               <Link to={`/sejarah/${item.id}`}>
+                <Card className="bg-dark movieImage">
+                  <Image
+                    src={item.imagess}
+                    alt={item.title}
+                    className="images"
+                  />
+                  <div className="card-title-container">
+                    <Card.Title className="text-center">
+                      {item.title}
+                    </Card.Title>
+                  </div>
+                </Card>
+              </Link>
+            </Col>
+          ))}
+
+          {masjidList.map((item) => (
+            <Col
+              md={4}
+              className="movieWrapper"
+              id="trending"
+              data-aos="zoom-in"
+              key={item.id}
+            >
+              <Link to={`/masjid/${item.id}`}>
+                <Card className="bg-dark movieImage">
+                  <Image
+                    src={item.imagess}
+                    alt={item.title}
+                    className="images"
+                  />
+                  <div className="card-title-container">
+                    <Card.Title className="text-center">
+                      {item.title}
+                    </Card.Title>
+                  </div>
+                </Card>
+              </Link>
+            </Col>
+          ))}
+
+{gerojogansewuList.map((item) => (
+            <Col
+              md={4}
+              className="movieWrapper"
+              id="trending"
+              data-aos="zoom-in"
+              key={item.id}
+            >
+              <Link to={`/sewu/${item.id}`}>
                 <Card className="bg-dark movieImage">
                   <Image
                     src={item.imagess}

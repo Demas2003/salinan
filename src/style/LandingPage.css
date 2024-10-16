@@ -35,6 +35,26 @@
   );
   background-size: cover;
 }
+.masjid {
+  height: auto;
+  background: linear-gradient(
+    to top,
+    rgba(204, 203, 203, 0.932),
+    rgba(0, 65, 206, 0.829)
+  );
+  background-size: cover;
+}
+
+.sewu {
+  height: auto;
+  background: linear-gradient(
+    to top,
+    rgba(204, 203, 203, 0.932),
+    rgba(0, 65, 206, 0.829)
+  );
+  background-size: cover;
+}
+
 
 .movieWrapper {
 }
@@ -241,6 +261,75 @@
   margin-bottom: 10px;
   line-height: 1.5;
 }
+
+#masjid .wrapper {
+  margin: auto;
+}
+
+#masjid .wrapper h1 {
+  font-size: 2rem;
+  color: #222831;
+}
+
+#masjid .wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#masjid .wrapper .skill {
+  text-align: left;
+  font-size: 1rem;
+  color: #222831;
+  white-space: pre-line;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+#masjid .wrapper ul {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+#masjid .wrapper ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+#sewu .wrapper {
+  margin: auto;
+}
+
+#sewu .wrapper h1 {
+  font-size: 2rem;
+  color: #222831;
+}
+
+#sewu .wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#sewu .wrapper .skill {
+  text-align: left;
+  font-size: 1rem;
+  color: #222831;
+  white-space: pre-line;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+#sewu .wrapper ul {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+#sewu .wrapper ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
 
 .each-slide-effect > div {
   display: flex;

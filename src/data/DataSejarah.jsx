@@ -36,7 +36,7 @@ export const detailList = [
   },
   // {
   //   id: 2,
-  //   title: "JALAK LAWU",
+  //   title: "JALAK LAWu",
   //   image: PertaruhanImage,
   //   imagess: PertaruhanImage,
   // }

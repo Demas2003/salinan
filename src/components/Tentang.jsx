@@ -31,9 +31,9 @@ function Tentang() {
               tanda kemitraan yang akan menghubungkan Anda kepada Mitra Kami.
             </p>
             <p>
-              <strong data-aos="flip-left">Email:</strong> contact@example.com
+              <strong data-aos="flip-left">Email:</strong> nusaar24@gmail.com
               <br />
-              <strong data-aos="flip-right">Phone:</strong> +123 456 7890
+              <strong data-aos="flip-right">Phone:</strong> 0852-8202-8312
             </p>
           </Col>
         </Row>
